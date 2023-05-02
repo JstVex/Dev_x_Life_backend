@@ -7,7 +7,7 @@ const postSchema = new Schema({
         type: String,
         required: true
     },
-    img: {
+    image: {
         type: String,
         required: true
     },
@@ -18,6 +18,9 @@ const postSchema = new Schema({
     text: {
         type: String,
         required: true
+    },
+    category: {
+        type: String
     }
 })
 
