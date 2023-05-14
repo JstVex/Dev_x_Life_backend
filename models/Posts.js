@@ -15,6 +15,9 @@ const postSchema = new Schema({
         type: String,
         required: true
     },
+    creationYear: {
+        type: String
+    },
     text: {
         type: String,
         required: true
